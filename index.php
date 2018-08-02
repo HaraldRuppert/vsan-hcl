@@ -69,7 +69,9 @@ refreshList();
 </br>
 vSAN HCL viewer &copy; 2017 Harald Ruppert
 <a href="https://twitter.com/HaraldRuppert"><img src="img/social-1_logo-twitter.svg" height="16" width="16"></a>
-<a href="https://www.linkedin.com/in/harald-ruppert-10967812b"><img src="img/social-1_logo-linkedin.svg" height="16" width="16"></a></br>
+<a href="https://www.linkedin.com/in/harald-ruppert-10967812b"><img src="img/social-1_logo-linkedin.svg" height="16" width="16"></a>
+<a href="https://github.com/HaraldRuppert/vsan-hcl"><img src="img/social-1_logo-github.svg" height="16" width="16"></a></br>
+
 data based on <a href="http://vmwa.re/vsanhcljson">http://vmwa.re/vsanhcljson</a> &copy; VMware Inc.</br>
 Last change in data: <?php echo $json_changed;?>, last updated: <?php echo gmdate("F j, Y, g:i A T",$json_updated)?></br>
 </body>
