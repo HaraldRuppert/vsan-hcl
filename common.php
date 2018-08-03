@@ -30,7 +30,7 @@ if(strlen($_GET['svid']) < 5 && ctype_xdigit($_GET['svid']))
 else
 	$_INPUT['svid'] = NULL;
 
-if(is_int($_GET['id']))
+if(is_numeric($_GET['id']))
     $_INPUT['id'] = intval($_GET['id']);
 else
     $_INPUT['id'] = NULL;
